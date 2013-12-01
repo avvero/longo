@@ -2,5 +2,13 @@ package com.avvero.longo
 
 class FlowController {
 
-    def index() {}
+    static long id;
+
+    def synchronized getId() {
+        return ++id;
+    }
+
+    def index() {
+        render (view: "index", model: [id: getId()])
+    }
 }

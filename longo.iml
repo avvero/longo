@@ -98,7 +98,9 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/atmosphere/atmosphere-runtime-native/2.0.3/atmosphere-runtime-native-2.0.3.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../longo_utils/src/main/java" />
+        </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>

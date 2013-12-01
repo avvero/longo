@@ -13,6 +13,7 @@
     <title></title>
     <r:require module="jquery"/>
     <r:require module="atmosphere-meteor"/>
+    <script>var id = ${id};</script>
     <r:require module="application"/>
 </head>
 <body>

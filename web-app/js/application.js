@@ -79,7 +79,7 @@ if (typeof jQuery !== 'undefined') {
                 LogFlow.socket = atmosphere;
             }
             var logFlowRequest = {
-                url: 'log/1'
+                url: 'log/'  + id
             };
             LogFlow.subscribe(logFlowRequest);
             //LogFlow.chatSubscription.push({"Im in!}");

@@ -6,21 +6,27 @@
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
     <file path="$PROJECT_DIR$/../log_emitter/src/groovy/com/avvero/log_emiiter/Main.java" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385877468867" ignored="false" />
-    <file path="/Main.java" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385889956497" ignored="false" />
+    <file path="/Main.java" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385898102295" ignored="false" />
     <file path="$PROJECT_DIR$/../log_emitter/build.gradle" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385880843823" ignored="false" />
     <file path="$PROJECT_DIR$/../log_emitter/src/groovy/log4j.properties" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385876860224" ignored="false" />
-    <file path="/fragment.java" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385877604946" ignored="false" />
+    <file path="/fragment.java" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385897401037" ignored="false" />
     <file path="$PROJECT_DIR$/../log_emitter/src/java/log4j.properties" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385880395723" ignored="false" />
     <file path="/log4j.properties" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385878593864" ignored="false" />
     <file path="/build.gradle" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385880807300" ignored="false" />
-    <file path="$PROJECT_DIR$/../log_emitter/log/log.out" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385890261641" ignored="false" />
-    <file path="$PROJECT_DIR$/../log_emitter/src/java/com/avvero/log_emiiter/Main.java" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385890185734" ignored="false" />
-    <file path="/application.js" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385890218086" ignored="false" />
+    <file path="$PROJECT_DIR$/../log_emitter/log/log.out" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385909126056" ignored="false" />
+    <file path="$PROJECT_DIR$/../log_emitter/src/java/com/avvero/log_emiiter/Main.java" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385898126944" ignored="false" />
+    <file path="/application.js" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385909154961" ignored="false" />
     <file path="/BuildConfig.groovy" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385883757782" ignored="false" />
-    <file path="/Dummy.txt" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385884340363" ignored="false" />
-    <file path="$PROJECT_DIR$/../longo_utils/build.gradle" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385884757995" ignored="false" />
-    <file path="/LogItemHandler.groovy" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385885938447" ignored="false" />
-    <file path="/index.gsp" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385889498913" ignored="false" />
+    <file path="/Dummy.txt" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385897637878" ignored="false" />
+    <file path="$PROJECT_DIR$/../longo_utils/build.gradle" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385897618378" ignored="false" />
+    <file path="/LogItemHandler.groovy" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385899068254" ignored="false" />
+    <file path="/index.gsp" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385909093730" ignored="false" />
+    <file path="/MongoUtils.java" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385897245580" ignored="false" />
+    <file path="$PROJECT_DIR$/../longo_utils/src/main/java/com/avvero/db/errors/IncorrectCollectionStateException.java" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385896813700" ignored="false" />
+    <file path="/IncorrectCollectionStateException.java" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385896812757" ignored="false" />
+    <file path="$PROJECT_DIR$/../longo_utils/src/sample/groovy/com/avvero/db/utils/MongoTailable.groovy" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385897577325" ignored="false" />
+    <file path="$PROJECT_DIR$/../longo_utils/.idea/workspace.xml" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385909230859" ignored="false" />
+    <file path="/FlowController.groovy" changelist="0e1341da-7dcb-4d83-85dd-5b467a4b759c" time="1385909028137" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="29" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.38405797">
+            <state line="81" column="33" selection-start="3204" selection-end="3204" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,28 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AtmosphereMeteorConfig.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/AtmosphereMeteorConfig.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="31" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AtmosphereMeteorResources.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/AtmosphereMeteorResources.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogItemHandler.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LogItemHandler.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/LogItemHandler.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
+            <state line="44" column="0" selection-start="1314" selection-end="1314" vertical-scroll-proportion="0.3325">
               <folding>
                 <element signature="e#26#67#0" expanded="true" />
               </folding>
@@ -148,10 +136,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FlowController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="20" selection-start="122" selection-end="122" vertical-scroll-proportion="-5.173913">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/flow/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="-3.632653">
+            <state line="15" column="27" selection-start="378" selection-end="378" vertical-scroll-proportion="-3.8979592">
               <folding />
             </state>
           </provider>
@@ -166,10 +163,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoUtils.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/longo_utils-0.0.2.jar!/com/avvero/db/utils/MongoUtils.class">
+      <file leaf-file-name="MongoUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../longo_utils/src/main/java/com/avvero/db/utils/MongoUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="809" selection-end="809" vertical-scroll-proportion="-9.2">
+            <state line="22" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBCollection.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/com/mongodb/DBCollection.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="22" selection-start="163" selection-end="163" vertical-scroll-proportion="17.0">
               <folding />
             </state>
           </provider>
@@ -185,12 +191,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/AtmosphereMeteorConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/../longo_utils/src/main/java/com/avvero/db/utils/MongoUtils.java" />
         <option value="$PROJECT_DIR$/src/groovy/com/avvero/longo/LogItemHandler.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/flow/index.gsp" />
         <option value="$PROJECT_DIR$/web-app/js/application.js" />
       </list>
@@ -296,7 +303,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../longo_utils" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -446,7 +453,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -454,12 +461,12 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3588317" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3783032" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20862308" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22668579" sideWeight="0.6411683" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22668579" sideWeight="0.6216968" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -469,7 +476,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964029" sideWeight="0.5632823" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.6216968" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21418637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -539,27 +546,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/atmosphere-meteor-0.7.0/src/groovy/org/grails/plugins/atmosphere_meteor/ApplicationContextHolder.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="440" selection-end="440" vertical-scroll-proportion="0.37694013">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/atmosphere/atmosphere-runtime-native/2.0.3/atmosphere-runtime-native-2.0.3.jar!/org/atmosphere/websocket/WebSocketEventListenerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="320" selection-end="320" vertical-scroll-proportion="-5.44">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="58" selection-end="58" vertical-scroll-proportion="-2.9565217">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig_ORIG.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -595,39 +581,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/DefaultMeteorServlet.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#26#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/com/mongodb/BasicDBObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="-3.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/longo_utils-0.0.2.jar!/com/avvero/db/utils/MongoUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="809" selection-end="809" vertical-scroll-proportion="-9.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="32" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/flow/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="-3.632653">
           <folding />
         </state>
       </provider>
@@ -639,19 +595,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/LogItemHandler.groovy">
+    <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/com/mongodb/DB.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#26#67#0" expanded="true" />
-          </folding>
+        <state line="30" column="52" selection-start="1178" selection-end="1194" vertical-scroll-proportion="0.33118972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../longo_utils/src/main/java/com/avvero/db/utils/MongoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="32" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="122" selection-end="122" vertical-scroll-proportion="-5.173913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/flow/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="378" selection-end="378" vertical-scroll-proportion="-3.8979592">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="29" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.38405797">
+        <state line="81" column="33" selection-start="3204" selection-end="3204" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/DefaultMeteorServlet.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="34" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#26#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/com/mongodb/DBCollection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="163" selection-end="163" vertical-scroll-proportion="17.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/LogItemHandler.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1314" selection-end="1314" vertical-scroll-proportion="0.3325">
+          <folding>
+            <element signature="e#26#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
