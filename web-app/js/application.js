@@ -25,23 +25,18 @@ if (typeof jQuery !== 'undefined') {
                 var logFlowRequest = $.extend({}, defaults, options);
 
                 logFlowRequest.onOpen = function (response) {
-                    console.log('jabberOpen transport: ' + response.transport);
                     LogFlow.chatSubscription.push("{message: 'Im in!'}");
                 };
                 logFlowRequest.onReconnect = function (request, response) {
-                    console.log("jabberReconnect");
                 };
                 logFlowRequest.onMessage = function (response) {
                     LogFlow.onMessage(response);
                 };
                 logFlowRequest.onError = function (response) {
-                    console.log('jabberError: ' + response);
                 };
                 logFlowRequest.onTransportFailure = function (errorMsg, request) {
-                    console.log('jabberTransportFailure: ' + errorMsg);
                 };
                 logFlowRequest.onClose = function (response) {
-                    console.log('jabberClose: ' + response);
                 };
                 LogFlow.chatSubscription = LogFlow.socket.subscribe(logFlowRequest);
             },
@@ -52,16 +47,33 @@ if (typeof jQuery !== 'undefined') {
 
             onMessage: function (response) {
                 var data = $.parseJSON(response.responseBody);
-                console.log(data);
                 var table = $('#logBody')
-
                 var tr = $( "<tr>")
-                tr.append($( "<td>").append(data.timestamp['$date']))
-                tr.append($( "<td>").append(data.level))
-                tr.append($( "<td>").append(data.message))
-                tr.append($( "<td>").append(data.thread))
-                tr.append($( "<td>").append(data.method))
-                tr.append($( "<td>").append(data.fileName))
+                // -----------
+                var level = data.level
+                var date = moment(new Date(data.timestamp['$date'])).format("YYYY-MM-DD HH:mm:ss")
+                var thread = data.thread
+                var user = '('+data.properties.userLogin+','+data.properties.sessionId+')'
+                var method = data.class.className+":"+data.method+":"+data.lineNumber
+                var message = data.message
+                // -----------
+                var log = date + "&nbsp;&nbsp;" + level + "&nbsp;" + thread + "&nbsp;" + user + "&nbsp;"
+                    + method + "&nbsp;-&nbsp;" + message
+                tr.append($( "<td colspan='2'>").append(log))
+                // -----------
+//                tr.append($( "<td>").append(data.level))
+//                tr.append($( "<td nowrap>").append(date))
+//                tr.append($( "<td nowrap>").append(data.thread))
+//                tr.append($( "<td nowrap>").append('('+data.properties.userLogin+','+data.properties.sessionId+')'))
+//                tr.append($( "<td nowrap>").append(data.class.className+":"+data.method+":"+data.lineNumber))
+//                tr.append($( "<td style='widows: 300px'>").append(data.message))
+                table.prepend(tr)
+                //
+                var tr2 = $( "<tr>")
+                tr2.append($( "<td>"))
+                tr2.append($( "<td>").append(message))
+                table.prepend(tr2)
+                // -----------
                 table.prepend(tr)
             }
         };

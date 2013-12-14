@@ -1,3 +1,4 @@
+grails.server.port.http=8081
 grails.servlet.version = "3.0" // Change depending on target container compliance (2.5 or 3.0)
 grails.tomcat.nio = true // Added by atmosphere-meteor plugin on Sun Dec 01 15:19:37 KRAT 2013.
 grails.project.class.dir = "target/classes"
