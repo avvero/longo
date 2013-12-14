@@ -58,7 +58,7 @@ if (typeof jQuery !== 'undefined') {
                 var message = data.message
                 // -----------
                 var log = date + "&nbsp;&nbsp;" + level + "&nbsp;" + thread + "&nbsp;" + user + "&nbsp;"
-                    + method + "&nbsp;-&nbsp;" + message
+                    + method + "&nbsp;-&nbsp;"// + message
                 tr.append($( "<td colspan='2'>").append(log))
                 // -----------
 //                tr.append($( "<td>").append(data.level))
@@ -71,7 +71,7 @@ if (typeof jQuery !== 'undefined') {
                 //
                 var tr2 = $( "<tr>")
                 tr2.append($( "<td>"))
-                tr2.append($( "<td>").append(message))
+                tr2.append($( "<td>").append(message.replaceAll('\r\n', '<br/>')))
                 table.prepend(tr2)
                 // -----------
                 table.prepend(tr)
@@ -98,3 +98,34 @@ if (typeof jQuery !== 'undefined') {
         });
     })(jQuery);
 }
+
+
+// ----------------
+String.prototype.replaceAll = function( token, newToken, ignoreCase ) {
+    var _token;
+    var str = this + "";
+    var i = -1;
+
+    if ( typeof token === "string" ) {
+
+        if ( ignoreCase ) {
+
+            _token = token.toLowerCase();
+
+            while( (
+                i = str.toLowerCase().indexOf(
+                    token, i >= 0 ? i + newToken.length : 0
+                ) ) !== -1
+                ) {
+                str = str.substring( 0, i ) +
+                    newToken +
+                    str.substring( i + token.length );
+            }
+
+        } else {
+            return this.split( token ).join( newToken );
+        }
+
+    }
+    return str;
+};
