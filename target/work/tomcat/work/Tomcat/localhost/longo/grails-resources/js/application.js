@@ -53,13 +53,12 @@ if (typeof jQuery !== 'undefined') {
                 var level = data.level
                 var date = moment(new Date(data.timestamp['$date'])).format("YYYY-MM-DD HH:mm:ss")
                 var thread = data.thread
-                var user = '('+data.properties.userLogin+','+data.properties.sessionId+')'
+                var user = data.properties ? '('+data.properties.userLogin+','+data.properties.sessionId+')' : ""
                 var method = data.class.className+":"+data.method+":"+data.lineNumber
                 var message = data.message
                 // -----------
                 var log = date + "&nbsp;&nbsp;" + level + "&nbsp;" + thread + "&nbsp;" + user + "&nbsp;"
                     + method + "&nbsp;-&nbsp;"// + message
-                tr.append($( "<td colspan='2'>").append(log))
                 // -----------
 //                tr.append($( "<td>").append(data.level))
 //                tr.append($( "<td nowrap>").append(date))
@@ -69,11 +68,18 @@ if (typeof jQuery !== 'undefined') {
 //                tr.append($( "<td style='widows: 300px'>").append(data.message))
                 table.prepend(tr)
                 //
-                var tr2 = $( "<tr>")
-                tr2.append($( "<td>"))
-                tr2.append($( "<td>").append(message.replaceAll('\r\n', '<br/>')))
-                table.prepend(tr2)
+                // XXX Нормально парсим в строку нужно нам
+                if ((message + " ").contains('\r\n')) {
+                    var tr2 = $( "<tr>")
+                    tr2.append($( "<td>"))
+                    message = message.replaceAll('\r\n', '<br/>')
+                    tr2.append($( "<td>").append(message))
+                    table.prepend(tr2)
+                } else {
+                    log += message
+                }
                 // -----------
+                tr.append($( "<td colspan='2'>").append(log))
                 table.prepend(tr)
             }
         };
