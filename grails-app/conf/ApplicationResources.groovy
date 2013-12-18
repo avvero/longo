@@ -8,7 +8,11 @@ modules = {
         resource url: 'js/moment.min.js'
     }
     bootstrap {
-        resource url: 'js/bootstrap.js'
+        resource url: 'js/bootstrap/bootstrap.js'
         dependsOn 'jquery'
+    }
+    offcanvas {
+        resource url: 'js/bootstrap/offcanvas.js'
+        dependsOn 'bootstrap'
     }
 }

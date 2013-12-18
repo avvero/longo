@@ -15,14 +15,44 @@
 
         <g:javascript library="jquery"/>
         <g:javascript library="bootstrap"/>
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'bootstrap.css')}" type="text/css">
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'bootstrap-theme.css')}" type="text/css">
+        <g:javascript library="offcanvas"/>
+		<link rel="stylesheet" href="${resource(dir: 'css', file: 'bootstrap/bootstrap.css')}" type="text/css">
+		<link rel="stylesheet" href="${resource(dir: 'css', file: 'bootstrap/bootstrap-theme.css')}" type="text/css">
+		<link rel="stylesheet" href="${resource(dir: 'css', file: 'bootstrap/offcanvas.css')}" type="text/css">
 		<g:layoutHead/>
 		<r:layoutResources />
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><a href="http://grails.org"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a></div>
-		<g:layoutBody/>
+        <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Longo</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li <g:if test="${controllerName == null}">class="active"</g:if>>
+                            <a href="/longo/">Home</a>
+                        </li>
+                        <li <g:if test="${controllerName.equals("flow")}">class="active"</g:if>>
+                            <g:link controller="flow">Flow</g:link>
+                        </li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div><!-- /.nav-collapse -->
+            </div><!-- /.container -->
+        </div>
+        <div class="container">
+            <div class="row row-offcanvas row-offcanvas-right">
+                <g:layoutBody/>
+            </div>
+
+        </div>
 		<div class="footer" role="contentinfo"></div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
 		%{--<g:javascript library="application"/>--}%
