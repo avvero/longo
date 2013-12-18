@@ -72,6 +72,7 @@ if (typeof jQuery !== 'undefined') {
                 if ((message + " ").contains('\r\n')) {
                     var tr2 = $( "<tr>")
                     tr2.append($( "<td>"))
+                    message = safeTags(message)
                     message = message.replaceAll('\r\n', '<br/>')
                     tr2.append($( "<td>").append(message))
                     table.prepend(tr2)
@@ -135,3 +136,7 @@ String.prototype.replaceAll = function( token, newToken, ignoreCase ) {
     }
     return str;
 };
+
+function safeTags(str) {
+    return str.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;') ;
+}
