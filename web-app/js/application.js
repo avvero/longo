@@ -1,7 +1,5 @@
 var LogFlow;
-if (typeof jQuery !== 'undefined') {
-    (function($) {
-
+$( document ).ready(function() {
         /*
          The Jabber variable holds all JavaScript code required for communicating with the server.
          It basically wraps the functions in atmosphere.js and jquery.atmosphere.js.
@@ -69,7 +67,7 @@ if (typeof jQuery !== 'undefined') {
                 table.prepend(tr)
                 //
                 // XXX Нормально парсим в строку нужно нам
-                if ((message + " ").contains('\r\n')) {
+                if ((message + " ").indexOf('\r\n')!= -1) {
                     var tr2 = $( "<tr>")
                     tr2.append($( "<td>"))
                     message = safeTags(message)
@@ -103,9 +101,7 @@ if (typeof jQuery !== 'undefined') {
             LogFlow.subscribe(logFlowRequest);
             //LogFlow.chatSubscription.push({"Im in!}");
         });
-    })(jQuery);
-}
-
+});
 
 // ----------------
 String.prototype.replaceAll = function( token, newToken, ignoreCase ) {

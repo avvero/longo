@@ -11,6 +11,12 @@ modules = {
         resource url: 'js/bootstrap/bootstrap.js'
         dependsOn 'jquery'
     }
+    angular {
+        resource url: 'js/angular.js'
+    }
+    flow {
+        resource url: 'js/flow.js'
+    }
     offcanvas {
         resource url: 'js/bootstrap/offcanvas.js'
         dependsOn 'bootstrap'

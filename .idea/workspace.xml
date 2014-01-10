@@ -68,18 +68,18 @@
       <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="66" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1122">
+            <state line="5" column="66" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="56" selection-start="3556" selection-end="3556" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2516">
+            <state line="103" column="3" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.51829267" vertical-offset="1071" max-vertical-offset="2448">
               <folding>
-                <marker date="1387345493529" expanded="true" signature="3094:3107" placeholder="..." />
+                <marker date="1389351471090" expanded="true" signature="3070:3083" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -124,7 +124,7 @@
       <file leaf-file-name="ApplicationResources.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="298" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+            <state line="23" column="50" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -142,7 +142,7 @@
       <file leaf-file-name="UrlMappings.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="24" selection-start="205" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+            <state line="9" column="24" selection-start="205" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -160,7 +160,7 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="115" selection-start="2493" selection-end="2561" vertical-scroll-proportion="-32.692307" vertical-offset="0" max-vertical-offset="1071">
+            <state line="26" column="57" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1071">
               <folding>
                 <marker date="1387348731640" expanded="true" signature="1590:1759" placeholder="..." />
                 <marker date="1387348731640" expanded="true" signature="2396:2580" placeholder="..." />
@@ -217,7 +217,7 @@
       <file leaf-file-name="FlowController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="40" selection-start="209" selection-end="209" vertical-scroll-proportion="-10.347826" vertical-offset="0" max-vertical-offset="340">
+            <state line="14" column="102" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -226,7 +226,7 @@
       <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="25" selection-start="3837" selection-end="3837" vertical-scroll-proportion="0.0" vertical-offset="1666" max-vertical-offset="2091">
+            <state line="98" column="25" selection-start="3837" selection-end="3837" vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="2091">
               <folding />
             </state>
           </provider>
@@ -244,16 +244,25 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/flow/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="24" selection-start="298" selection-end="298" vertical-scroll-proportion="-4.5102043" vertical-offset="0" max-vertical-offset="527">
+            <state line="26" column="51" selection-start="808" selection-end="808" vertical-scroll-proportion="-9.020409" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="flow.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/js/flow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="714" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="44" selection-start="2328" selection-end="2328" vertical-scroll-proportion="0.5653884" vertical-offset="88" max-vertical-offset="1139">
+            <state line="61" column="55" selection-start="3176" selection-end="3176" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1139">
               <folding />
             </state>
           </provider>
@@ -310,14 +319,15 @@
         <option value="$PROJECT_DIR$/../longo_utils/src/main/java/com/avvero/db/utils/MongoUtils.java" />
         <option value="$PROJECT_DIR$/src/groovy/com/avvero/longo/LogItemHandler.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/flow/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/temp.html" />
         <option value="$PROJECT_DIR$/grails-app/views/temp.js" />
-        <option value="$PROJECT_DIR$/web-app/js/application.js" />
-        <option value="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/flow/index.gsp" />
+        <option value="$PROJECT_DIR$/web-app/js/flow.js" />
+        <option value="$PROJECT_DIR$/web-app/js/application.js" />
       </list>
     </option>
   </component>
@@ -626,12 +636,16 @@
       <updated>1385874876659</updated>
       <workItem from="1387011039979" duration="8240000" />
       <workItem from="1387344883414" duration="1549000" />
-      <workItem from="1387346546261" duration="3140000" />
+      <workItem from="1387346546261" duration="3745000" />
+      <workItem from="1387535675437" duration="788000" />
+      <workItem from="1387613314246" duration="98000" />
+      <workItem from="1388112619694" duration="477000" />
+      <workItem from="1389348369460" duration="3088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12929000" />
+    <option name="totallyTimeSpent" value="17985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1216" height="1854" extended-state="6" />
@@ -657,7 +671,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37786934" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21954091" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.22625215" sideWeight="0.6216968" order="2" side_tool="false" content_ui="tabs" x="-324" y="3" width="321" height="1057" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -669,7 +683,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33019423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -692,13 +706,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/temp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="77" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1258">
@@ -808,7 +815,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="33" selection-start="3204" selection-end="3204" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="1598">
           <folding>
-            <marker date="1387345493529" expanded="true" signature="3094:3107" placeholder="..." />
+            <marker date="1389351471090" expanded="true" signature="3070:3083" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -930,23 +937,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="25" selection-start="3837" selection-end="3837" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig_ORIG.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="66" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
@@ -972,15 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="56" selection-start="3556" selection-end="3556" vertical-scroll-proportion="0.0" vertical-offset="536" max-vertical-offset="2516">
-          <folding>
-            <marker date="1387345493529" expanded="true" signature="3094:3107" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/css/errors.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="69" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
@@ -995,40 +979,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/flow/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="298" selection-end="298" vertical-scroll-proportion="-4.5102043" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/css/bootstrap/offcanvas.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1058">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="115" selection-start="2493" selection-end="2561" vertical-scroll-proportion="-32.692307" vertical-offset="0" max-vertical-offset="1071">
-          <folding>
-            <marker date="1387348731640" expanded="true" signature="1590:1759" placeholder="..." />
-            <marker date="1387348731640" expanded="true" signature="2396:2580" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="40" selection-start="209" selection-end="209" vertical-scroll-proportion="-10.347826" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="298" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
@@ -1049,8 +1002,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="44" selection-start="2328" selection-end="2328" vertical-scroll-proportion="0.5653884" vertical-offset="88" max-vertical-offset="1139">
+        <state line="61" column="55" selection-start="3176" selection-end="3176" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1139">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="57" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1071">
+          <folding>
+            <marker date="1387348731640" expanded="true" signature="1590:1759" placeholder="..." />
+            <marker date="1387348731640" expanded="true" signature="2396:2580" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="102" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="25" selection-start="3837" selection-end="3837" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="66" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/flow/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="51" selection-start="808" selection-end="808" vertical-scroll-proportion="-9.020409" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/flow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="714" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="3" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.51829267" vertical-offset="1071" max-vertical-offset="2448">
+          <folding>
+            <marker date="1389351471090" expanded="true" signature="3070:3083" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
