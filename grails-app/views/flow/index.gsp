@@ -32,10 +32,5 @@
             <div ng-bind-html-unsafe="log.messageLong"></div>
         </div>
     </div>
-    <table style="font-size: small;">
-        <tbody id="logBody">
-
-        </tbody>
-    </table>
 </body>
 </html>
