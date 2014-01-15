@@ -1,10 +1,9 @@
 
-var canApply = true;
-function doApply() {
-    canApply = false;
-    setTimeout(function() { canApply = true }, 100);
-}
+var logPerPage = 200
+var waitBeforeNextApplyTimeout = 100
+var applyRemainsTimeout = 1000
 
+// ########################################################################
 $( document ).ready(function() {
     var flowModule = angular.module("flow", [])
     flowModule.filter('reverse', function() {
@@ -14,24 +13,47 @@ $( document ).ready(function() {
     });
     flowModule.controller("flowController",
         function($scope) {
+            $scope.waitToApply = 0; // ждут обновления
+            $scope.canApply = true; // включенность возможности обновления
+            $scope.isStopApply = false; // остановили обновление страницы
             $scope.items = [];
             $scope.remove = function(index) {
                 $scope.items.splice(index, 1);
             }
-            $scope.addLogEntry = function (log) {
-                $scope.items.push(log);
-                $scope.$apply();
-            };
+            $scope.waitBeforeNextApply = function() {
+                $scope.canApply = false;
+                setTimeout(function() { $scope.canApply = true }, waitBeforeNextApplyTimeout);
+            }
+            $scope.applyRemains = function() {
+                setTimeout(function() {
+                    // Если обновлять можно и есть остатки (зависли), то обновим страницу
+                    if (!$scope.isStopApply && $scope.waitToApply > 0) {
+                        $scope.waitToApply = 0
+                        $scope.$apply();
+                        $scope.waitBeforeNextApply();
+                    }
+                }, applyRemainsTimeout);
+            }
             $scope.addLimitLogEntry = function (log) {
-                if ($scope.items.length > 30) {
+                // Не выходим за лимит
+                if ($scope.items.length > logPerPage) {
                     $scope.items.splice(0,1);
                 }
                 $scope.items.push(log);
-                if (canApply) {
+                $scope.waitToApply += 1
+                // Если можно обновить, то обновим и поставим ожидалку
+                if ($scope.canApply && !$scope.isStopApply) {
+                    $scope.waitToApply = 0
                     $scope.$apply();
-                    doApply();
+                    $scope.waitBeforeNextApply();
+                } else {
+                    // Обновим остатки
+                    $scope.applyRemains()
                 }
             };
+            $scope.stopApply = function () {
+                $scope.isStopApply = !$scope.isStopApply;
+            }
             //------------------
             $scope.LogFlow = {
                 socket: null,
