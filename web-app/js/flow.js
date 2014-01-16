@@ -1,5 +1,5 @@
 
-var logPerPage = 200
+var logPerPage = 1000
 var waitBeforeNextApplyTimeout = 100
 var applyRemainsTimeout = 1000
 

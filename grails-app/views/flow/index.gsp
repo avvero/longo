@@ -59,6 +59,9 @@
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li>
+                                {{items.length}}
+                            </li>
+                            <li>
                                 <form class="navbar-form navbar-left">
                                     <button type="button" class="btn btn-warning {{isStopApply == true ? 'active' : ''}}" ng-click="stopApply();">STOP <span class="badge">{{waitToApply}}</span></button>
                                 </form>

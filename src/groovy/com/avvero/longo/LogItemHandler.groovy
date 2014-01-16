@@ -47,17 +47,15 @@ class LogItemHandler extends HttpServlet {
         if (message == null) {
 
         } else {
-            DB db = MongoUtils.getDB("127.0.0.1", 27017, "longo")
-            DBCursor cursor = MongoUtils.getTailableCursor(db, "test")
-            MongoUtils.tail(db, cursor, new CursorListener() {
-                @Override
-                public void afterInsert(Object o) {
+            MongoLogService mongoLogService = SpringUtil.getBean("mongoLogService")
+            mongoLogService.addListener(new Listener() {
+                void handle(Object o) {
                     BasicDBObject dbObject = (BasicDBObject) o;
                     def log = dbObject.toString()
                     Broadcaster broadcaster = BroadcasterFactory.getDefault().lookup(DefaultBroadcaster.class, mapping)
                     broadcaster.broadcast(log)
                 }
-            });
+            })
 
             Broadcaster b = BroadcasterFactory.getDefault().lookup(DefaultBroadcaster.class, mapping)
             b.broadcast(jsonMap)

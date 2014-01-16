@@ -1,3 +1,5 @@
+import org.apache.log4j.DailyRollingFileAppender
+
 // locations to search for config files that get merged into the main config;
 // config files can be ConfigSlurper scripts, Java properties files, or classes
 // in the classpath in ConfigSlurper format
@@ -114,4 +116,21 @@ log4j = {
            'org.springframework',
            'org.hibernate',
            'net.sf.ehcache.hibernate'
+
+    appenders {
+        console name: 'stdout', layout: pattern(conversionPattern: '%d{yyyy-MM-dd HH:mm:ss} %5p %t %c{1}:%M:%L - %m%n')
+        appender new DailyRollingFileAppender(
+                name: 'dailyAppender',
+                datePattern: "'.'yyyy-MM-dd",  // See the API for all patterns.
+                fileName: "logs/stub.log",
+                layout: pattern(conversionPattern: '%d{yyyy-MM-dd HH:mm:ss} %5p %t %c{1}:%M:%L - %m%n'),
+                encoding: "UTF-8"
+        )
+    }
+
+    root {
+        info 'console', 'dailyAppender'
+    }
+
+    trace "com.avvero"
 }
