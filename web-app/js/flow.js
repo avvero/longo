@@ -139,7 +139,7 @@ $( document ).ready(function() {
                 $scope.LogFlow.socket = atmosphere;
             }
             var logFlowRequest = {
-                url: 'log/'  + id
+                url: 'log/' + collector + "/" + id
             };
             $scope.LogFlow.subscribe(logFlowRequest);
         }

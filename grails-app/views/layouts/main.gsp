@@ -34,7 +34,7 @@
                             <a href="/longo/">Home</a>
                         </li>
                         <li <g:if test="${controllerName.equals("flow")}">class="active"</g:if>>
-                            <g:link controller="flow">Flow</g:link>
+                            <g:link controller="flow" action="sources">Flow</g:link>
                         </li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>

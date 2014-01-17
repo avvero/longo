@@ -1,12 +1,11 @@
 package com.avvero.longo
 
-import com.avvero.db.utils.CursorListener
-import com.avvero.db.utils.MongoUtils
 import com.mongodb.BasicDBObject
-import com.mongodb.DB
-import com.mongodb.DBCursor
 import grails.converters.JSON
-import org.atmosphere.cpr.*
+import org.atmosphere.cpr.Broadcaster
+import org.atmosphere.cpr.BroadcasterFactory
+import org.atmosphere.cpr.DefaultBroadcaster
+import org.atmosphere.cpr.Meteor
 
 import javax.servlet.http.HttpServlet
 import javax.servlet.http.HttpServletRequest
@@ -21,45 +20,25 @@ class LogItemHandler extends HttpServlet {
     @Override
     void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         String mapping = "/log" + request.getPathInfo()
-        Broadcaster b = BroadcasterFactory.getDefault().lookup(DefaultBroadcaster.class, mapping, true)
+        Broadcaster broadcaster = BroadcasterFactory.getDefault().lookup(DefaultBroadcaster.class, mapping, true)
         Meteor m = Meteor.build(request)
 
-        //-----------------
-
-        //-----------------
-//        m.addListener(new AtmosphereResourceEventListenerAdapter() {
-//            @Override
-//            void onDisconnect(AtmosphereResourceEvent event) {
-//                db.requestDone();
-//            }
-//        })
-        m.setBroadcaster(b)
-        //-----------------
-
-        //-----------------
+        //XXX подумать лучше
+        String[] pars = request.getPathInfo().split("/")
+        Collector collector = CollectorFactory.getCollector(pars[1])
+        collector.addListener(new Listener() {
+            void handle(Object o) {
+                BasicDBObject dbObject = (BasicDBObject) o;
+                def log = dbObject.toString()
+                broadcaster.broadcast(log)
+            }
+        })
+        m.setBroadcaster(broadcaster)
     }
 
     @Override
     void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        String mapping = "/log" + request.getPathInfo();
-        def jsonMap = JSON.parse(request.getReader().readLine().trim()) as Map
-        String message = jsonMap.containsKey("message") ? jsonMap.message.toString() : null
-        if (message == null) {
 
-        } else {
-            MongoLogService mongoLogService = SpringUtil.getBean("mongoLogService")
-            mongoLogService.addListener(new Listener() {
-                void handle(Object o) {
-                    BasicDBObject dbObject = (BasicDBObject) o;
-                    def log = dbObject.toString()
-                    Broadcaster broadcaster = BroadcasterFactory.getDefault().lookup(DefaultBroadcaster.class, mapping)
-                    broadcaster.broadcast(log)
-                }
-            })
-
-            Broadcaster b = BroadcasterFactory.getDefault().lookup(DefaultBroadcaster.class, mapping)
-            b.broadcast(jsonMap)
-        }
     }
 
 }

@@ -1,14 +1,14 @@
 class BootStrap {
 
-    def socketLogService
-    def mongoLogService
+    def socketEventService
+    def mongoEventService
 
     def init = { servletContext ->
 //        socketLogService.start()
-        mongoLogService.start()
+//        mongoEventService.start()
     }
     def destroy = {
 //        socketLogService.stop()
-        mongoLogService.stop()
+//        mongoEventService.stop()
     }
 }

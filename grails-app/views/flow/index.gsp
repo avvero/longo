@@ -13,7 +13,8 @@
     <title></title>
     <g:javascript library="jquery"/>
     <g:javascript library="atmosphere-meteor"/>
-    <script>var id = ${id};</script>
+    <script>var collector = "${collector}";</script>
+    <script>var id = "${id}";</script>
     <g:javascript library="angular"/>
     <g:javascript library="application"/>
     <g:javascript library="flow"/>

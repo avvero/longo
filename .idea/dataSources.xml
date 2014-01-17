@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1795101444">
+    <data-source source="LOCAL" name="H2 - longo" uuid="5c500bf8-b972-4d4e-8e35-c722593cd6dd">
+      <driver-ref>h2.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:file:~/h2db/longo</jdbc-url>
+      <user-name>sa</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
