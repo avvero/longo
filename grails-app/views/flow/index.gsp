@@ -11,6 +11,7 @@
 <head>
     <meta name="layout" content="main"/>
     <title></title>
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'bootstrap/docs.css')}" type="text/css">
     <g:javascript library="jquery"/>
     <g:javascript library="atmosphere-meteor"/>
     <script>var collector = "${collector}";</script>
@@ -25,10 +26,10 @@
             <div class="fill">
                 <div>
                     <div ng-repeat="log in items | reverse | filter:search | filter: byLevel"
-                        class="
-                        {{log.level == 'ERROR' ? 'alert-danger' : ''}}
-                        {{log.level == 'WARN' ? 'alert-warning' : ''}}
-                        {{log.level == 'INFO' ? 'alert-info' : ''}}
+                        class="bs-callout
+                        {{log.level == 'ERROR' ? 'bs-callout-danger' : ''}}
+                        {{log.level == 'WARN' ? 'bs-callout-warning' : ''}}
+                        {{log.level == 'INFO' ? 'bs-callout-info' : ''}}
                         ">
                         <span>
                             {{log.date}}&nbsp;&nbsp;

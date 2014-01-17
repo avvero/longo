@@ -2102,3 +2102,45 @@ C:\dev\github\longo\src\groovy\com\avvero\longo\SocketCollector.groovy: 22: unab
 2014-01-17 18:09:14 ERROR http-nio-8081-exec-2 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
 2014-01-17 18:09:14  WARN http-nio-8081-exec-2 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
 2014-01-17 18:09:14  INFO http-nio-8081-exec-9 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 18:16:08  INFO http-nio-8081-exec-4 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 18:16:26 ERROR http-nio-8081-exec-5 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 18:16:26  WARN http-nio-8081-exec-5 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 18:18:24  INFO http-nio-8081-exec-1 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 18:19:18 ERROR http-nio-8081-exec-4 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 18:19:18  WARN http-nio-8081-exec-4 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 18:21:10  INFO Thread-13 GrailsProjectWatcher:info:152 - File [C:\dev\github\longo\web-app\css\bootstrap\docs.css] added. Applying changes to application.
+2014-01-17 18:21:10  INFO Thread-13 ResourcesGrailsPlugin:info:152 - Scheduling reload of resource files due to change of file C:\dev\github\longo\web-app\css\bootstrap\docs.css
+2014-01-17 18:21:10  INFO pool-3-thread-1 ResourceProcessor:info:152 - Performing a changed file reload
+2014-01-17 18:21:10  INFO pool-3-thread-1 ResourceProcessor:info:152 - Loading declared resources...
+2014-01-17 18:21:10  INFO pool-3-thread-1 ResourceProcessor:info:152 - Finished changed file reload
+2014-01-17 18:21:54 ERROR http-nio-8081-exec-8 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 18:21:54  WARN http-nio-8081-exec-8 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 18:21:56 ERROR http-nio-8081-exec-7 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 18:21:56  WARN http-nio-8081-exec-7 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 18:21:56  INFO http-nio-8081-exec-3 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 18:22:20 ERROR http-nio-8081-exec-4 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 18:22:20  WARN http-nio-8081-exec-4 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 18:22:52  INFO Thread-13 GrailsProjectWatcher:info:152 - File [C:\dev\github\longo\web-app\css\bootstrap\docs.css] changed. Applying changes to application.
+2014-01-17 18:22:52  INFO Thread-13 ResourcesGrailsPlugin:info:152 - Scheduling reload of resource files due to change of file C:\dev\github\longo\web-app\css\bootstrap\docs.css
+2014-01-17 18:22:53  INFO pool-3-thread-1 ResourceProcessor:info:152 - Performing a changed file reload
+2014-01-17 18:22:53  INFO pool-3-thread-1 ResourceProcessor:info:152 - Loading declared resources...
+2014-01-17 18:22:53  INFO pool-3-thread-1 ResourceProcessor:info:152 - Finished changed file reload
+2014-01-17 18:22:53 ERROR http-nio-8081-exec-6 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 18:22:53  WARN http-nio-8081-exec-6 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 18:22:53  INFO http-nio-8081-exec-9 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 18:24:52 ERROR http-nio-8081-exec-4 ResourceMeta:invoke:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 18:24:52  WARN http-nio-8081-exec-4 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 18:24:52  INFO http-nio-8081-exec-7 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 18:25:49  INFO Thread-13 GrailsProjectWatcher:info:152 - File [C:\dev\github\longo\web-app\css\bootstrap\docs.css] changed. Applying changes to application.
+2014-01-17 18:25:49  INFO Thread-13 ResourcesGrailsPlugin:info:152 - Scheduling reload of resource files due to change of file C:\dev\github\longo\web-app\css\bootstrap\docs.css
+2014-01-17 18:25:49  INFO pool-3-thread-1 ResourceProcessor:info:152 - Performing a changed file reload
+2014-01-17 18:25:49  INFO pool-3-thread-1 ResourceProcessor:info:152 - Loading declared resources...
+2014-01-17 18:25:49  INFO pool-3-thread-1 ResourceProcessor:info:152 - Finished changed file reload
+2014-01-17 18:25:52  INFO Thread-13 GrailsProjectWatcher:info:152 - File [C:\dev\github\longo\web-app\css\bootstrap\docs.css] changed. Applying changes to application.
+2014-01-17 18:25:52  INFO Thread-13 ResourcesGrailsPlugin:info:152 - Scheduling reload of resource files due to change of file C:\dev\github\longo\web-app\css\bootstrap\docs.css
+2014-01-17 18:25:52  INFO pool-3-thread-1 ResourceProcessor:info:152 - Performing a changed file reload
+2014-01-17 18:25:52  INFO pool-3-thread-1 ResourceProcessor:info:152 - Loading declared resources...
+2014-01-17 18:25:52  INFO pool-3-thread-1 ResourceProcessor:info:152 - Finished changed file reload
+2014-01-17 18:25:53 ERROR http-nio-8081-exec-7 ResourceMeta:invoke:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 18:25:53  WARN http-nio-8081-exec-7 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 18:25:53  INFO http-nio-8081-exec-5 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
