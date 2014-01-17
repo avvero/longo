@@ -1,7 +1,5 @@
 package com.avvero.longo
 
-import com.mongodb.BasicDBObject
-import grails.converters.JSON
 import org.atmosphere.cpr.Broadcaster
 import org.atmosphere.cpr.BroadcasterFactory
 import org.atmosphere.cpr.DefaultBroadcaster
@@ -26,13 +24,7 @@ class LogItemHandler extends HttpServlet {
         //XXX подумать лучше
         String[] pars = request.getPathInfo().split("/")
         Collector collector = CollectorFactory.getCollector(pars[1])
-        collector.addListener(new Listener() {
-            void handle(Object o) {
-                BasicDBObject dbObject = (BasicDBObject) o;
-                def log = dbObject.toString()
-                broadcaster.broadcast(log)
-            }
-        })
+        collector.addListener(broadcaster)
         m.setBroadcaster(broadcaster)
     }
 

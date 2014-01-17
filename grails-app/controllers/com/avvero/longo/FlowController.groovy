@@ -56,8 +56,8 @@ class FlowController {
     }
 
      def connectToSocketCollector() {
-        def connection = MongoConnectionConfig.findById(params.id)
-        Collector collector = CollectorFactory.getCollector(connection)
+        def socket = Socket.findById(params.id)
+        Collector collector = CollectorFactory.getCollector(socket)
         redirect(controller: "flow", action: "index", params: [collector: collector.getName()])
     }
 

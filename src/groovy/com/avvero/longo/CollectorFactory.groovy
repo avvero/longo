@@ -24,8 +24,18 @@ class CollectorFactory {
         Collector collector = collectors.get(config.getKey())
         if (collector == null) {
             collector = new MongoCollector(config)
-            collector.start()
             collectors.put(collector.getName(), collector)
+            collector.start()
+        }
+        return collector;
+    }
+
+    public static synchronized Collector getCollector(Socket socket) {
+        Collector collector = collectors.get(socket.getKey())
+        if (collector == null) {
+            collector = new SocketCollector(socket)
+            collectors.put(collector.getName(), collector)
+            collector.start()
         }
         return collector;
     }

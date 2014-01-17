@@ -1,6 +1,7 @@
 package com.avvero.longo
 
 import org.apache.commons.logging.LogFactory
+import org.atmosphere.cpr.Broadcaster
 
 /**
  *
@@ -32,6 +33,13 @@ abstract class Collector {
         log.info("Add new listener to Collector " + getName())
         this.listeners.add(listener)
     }
+
+    synchronized void addListener(Broadcaster broadcaster) {
+        log.info("Add new listener to Collector " + getName())
+        this.listeners.add(getNewListener(broadcaster))
+    }
+
+    protected abstract Listener getNewListener(Broadcaster broadcaster)
 
     synchronized void alertListener(doc) {
         listeners.each {it->

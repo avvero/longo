@@ -7,4 +7,9 @@ class Socket {
 
     static constraints = {
     }
+
+    def getKey() {
+        return "socket:" + this.host+":" + this.port
+    }
+
 }

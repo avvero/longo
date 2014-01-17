@@ -5,6 +5,7 @@ import com.mongodb.BasicDBObject
 import com.mongodb.DB
 import com.mongodb.DBCursor
 import org.apache.commons.logging.LogFactory
+import org.atmosphere.cpr.Broadcaster
 
 /**
  *
@@ -19,7 +20,7 @@ class MongoCollector extends Collector {
 
     MongoConnectionConfig config
 
-    MongoCollector (MongoConnectionConfig config) {
+    MongoCollector(MongoConnectionConfig config) {
         this.config = config
     }
 
@@ -38,7 +39,7 @@ class MongoCollector extends Collector {
             void run() {
                 try {
                     while (cursor.hasNext()) {
-                        BasicDBObject doc = (BasicDBObject)cursor.next()
+                        BasicDBObject doc = (BasicDBObject) cursor.next()
                         alertListener(doc)
                     }
                 } finally {
@@ -53,7 +54,20 @@ class MongoCollector extends Collector {
         log.info("Stop MongoCollector...")
         try {
             if (cursor != null) cursor.close();
-        } catch (final Throwable t) { }
+        } catch (final Throwable t) {
+        }
         db.requestDone();
     }
+
+    @Override
+    protected Listener getNewListener(Broadcaster broadcaster) {
+        return new Listener() {
+            void handle(Object o) {
+                BasicDBObject dbObject = (BasicDBObject) o;
+                def log = dbObject.toString()
+                broadcaster.broadcast(log)
+            }
+        }
+    }
+
 }
