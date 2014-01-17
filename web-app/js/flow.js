@@ -16,6 +16,24 @@ $( document ).ready(function() {
             $scope.waitToApply = 0; // ждут обновления
             $scope.canApply = true; // включенность возможности обновления
             $scope.isStopApply = false; // остановили обновление страницы
+            // Уровни событий
+            $scope.showDebug = true;
+            $scope.showInfo = true;
+            $scope.showWarn = true;
+            $scope.showError = true;
+            $scope.changeShowDebug = function () {
+                $scope.showDebug = !$scope.showDebug;
+            }
+            $scope.changeShowInfo = function () {
+                $scope.showInfo = !$scope.showInfo;
+            }
+            $scope.changeShowWarn = function () {
+                $scope.showWarn = !$scope.showWarn;
+            }
+            $scope.changeShowDanger = function () {
+                $scope.showError = !$scope.showError;
+            }
+            // События
             $scope.items = [];
             $scope.remove = function(index) {
                 $scope.items.splice(index, 1);
@@ -96,38 +114,18 @@ $( document ).ready(function() {
 
                 onMessage: function (response) {
                     var data = $.parseJSON(response.responseBody);
-//                    var table = $('#logBody')
-//                    var tr = $( "<tr>")
-//                    // -----------
-//                    var level = data.level
                     var date = moment(new Date(data.timestamp['$date'])).format("YYYY-MM-DD HH:mm:ss")
                     data.date = date
-//                    var thread = data.thread
                     var user = data.properties ? '('+data.properties.userLogin+','+data.properties.sessionId+')' : ""
                     data.user = user
-//                    var method = data.class.className+":"+data.method+":"+data.lineNumber
                     var message = data.message
-//                    // -----------
-//                    var log = date + "&nbsp;&nbsp;" + level + "&nbsp;" + thread + "&nbsp;" + user + "&nbsp;"
-//                        + method + "&nbsp;-&nbsp;"// + message
-//                    // -----------
-//                    table.prepend(tr)
-//                    //
-//                    // XXX Нормально парсим в строку нужно нам
+                    // XXX Нормально парсим в строку нужно нам
                     if ((message + " ").indexOf('\r\n')!= -1) {
-//                        var tr2 = $( "<tr>")
-//                        tr2.append($( "<td>"))
                         message = safeTags(message)
                         message = message.replaceAll('\r\n', '<br/>')
-//                        tr2.append($( "<td>").append(message))
-//                        table.prepend(tr2)
                         data.message = ""
                         data.messageLong = message
                     }
-//                    // -----------
-//                    tr.append($( "<td colspan='2'>").append(log))
-//                    table.prepend(tr)
-
                     $scope.addLimitLogEntry(data)
                 }
             };

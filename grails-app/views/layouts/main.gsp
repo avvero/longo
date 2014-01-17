@@ -26,7 +26,7 @@
         <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Longo</a>
+                    <a class="navbar-brand" href="/longo/">Longo</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -36,7 +36,6 @@
                         <li <g:if test="${controllerName.equals("flow")}">class="active"</g:if>>
                             <g:link controller="flow" action="sources">Flow</g:link>
                         </li>
-                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div><!-- /.nav-collapse -->
             </div><!-- /.container -->

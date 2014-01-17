@@ -24,7 +24,12 @@
         <div class="container">
             <div class="fill">
                 <div>
-                    <div ng-repeat="log in items | reverse">
+                    <div ng-repeat="log in items | reverse | filter:search"
+                        class="
+                        {{log.level == 'ERROR' ? 'alert-danger' : ''}}
+                        {{log.level == 'WARN' ? 'alert-warning' : ''}}
+                        {{log.level == 'INFO' ? 'alert-info' : ''}}
+                        ">
                         <span>
                             {{log.date}}&nbsp;&nbsp;
                             {{log.level}}&nbsp;
@@ -46,13 +51,25 @@
                             <li>
                                 <form action="/Stub-0.1/gateToShop/index" method="post" class="navbar-form navbar-left" role="search">
                                     <div class="form-group">
-                                        <input name="productId" class="form-control" value="">
+                                        <input ng-model="search.message" class="form-control">
                                     </div>
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-success">DEBUG</button>
-                                        <button type="button" class="btn btn-sm btn-info">INFO</button>
-                                        <button type="button" class="btn btn-sm btn-warning">WARN</button>
-                                        <button type="button" class="btn btn-sm btn-danger">ERROR</button>
+                                        <button type="button"
+                                                class="btn btn-sm btn-success {{showDebug == true ? 'active' : ''}}"
+                                                ng-click="changeShowDebug();">
+                                            DEBUG</button>
+                                        <button type="button"
+                                                class="btn btn-sm btn-info {{showInfo == true ? 'active' : ''}}"
+                                                ng-click="changeShowInfo();">
+                                            INFO</button>
+                                        <button type="button"
+                                                class="btn btn-sm btn-warning {{showWarn == true ? 'active' : ''}}"
+                                                ng-click="changeShowWarn();">
+                                            WARN</button>
+                                        <button type="button"
+                                                class="btn btn-sm btn-danger {{showError == true ? 'active' : ''}}"
+                                                ng-click="changeShowDanger();">
+                                            ERROR</button>
                                     </div>
                                 </form>
                             </li>
@@ -60,7 +77,7 @@
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                {{items.length}}
+                                Всего событий: {{items.length}}
                             </li>
                             <li>
                                 <form class="navbar-form navbar-left">

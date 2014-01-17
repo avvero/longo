@@ -1943,3 +1943,123 @@ C:\dev\github\longo\src\groovy\com\avvero\longo\SocketCollector.groovy: 22: unab
 2014-01-17 17:14:37  INFO http-nio-8081-exec-10 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
 2014-01-17 17:14:53  INFO http-nio-8081-exec-10 Collector:info:152 - Add new listener to Collector socket:localhost:4447
 2014-01-17 17:28:50  INFO Thread-14 GrailsProjectWatcher:info:152 - File [C:\dev\github\longo\grails-app\conf\BootStrap.groovy] changed. Applying changes to application.
+2014-01-17 17:30:07  INFO http-nio-8081-exec-9 Collector:info:152 - Add new listener to Collector socket:localhost:4447
+2014-01-17 17:31:09  INFO Thread-14 GrailsProjectWatcher:info:152 - File [C:\dev\github\longo\web-app\js\flow.js] changed. Applying changes to application.
+2014-01-17 17:31:09  INFO Thread-14 ResourcesGrailsPlugin:info:152 - Scheduling reload of resource files due to change of file C:\dev\github\longo\web-app\js\flow.js
+2014-01-17 17:31:10  INFO pool-3-thread-1 ResourceProcessor:info:152 - Performing a changed file reload
+2014-01-17 17:31:10  INFO pool-3-thread-1 ResourceProcessor:info:152 - Loading declared resources...
+2014-01-17 17:31:10  INFO pool-3-thread-1 ResourceProcessor:info:152 - Finished changed file reload
+2014-01-17 17:31:19  INFO Thread-14 GrailsProjectWatcher:info:152 - File [C:\dev\github\longo\web-app\js\flow.js] changed. Applying changes to application.
+2014-01-17 17:31:19  INFO Thread-14 ResourcesGrailsPlugin:info:152 - Scheduling reload of resource files due to change of file C:\dev\github\longo\web-app\js\flow.js
+2014-01-17 17:31:19  INFO pool-3-thread-1 ResourceProcessor:info:152 - Performing a changed file reload
+2014-01-17 17:31:19  INFO pool-3-thread-1 ResourceProcessor:info:152 - Loading declared resources...
+2014-01-17 17:31:19  INFO pool-3-thread-1 ResourceProcessor:info:152 - Finished changed file reload
+2014-01-17 17:34:17  INFO http-nio-8081-exec-10 Collector:info:152 - Add new listener to Collector socket:localhost:4447
+2014-01-17 17:34:48  INFO http-nio-8081-exec-4 Collector:info:152 - Add new listener to Collector socket:localhost:4447
+2014-01-17 17:36:40  INFO main WebxmlGrailsPlugin:invoke0:? - Loading default config file: class DefaultWebXmlConfig
+2014-01-17 17:36:40  WARN main WebxmlGrailsPlugin:invoke0:? - Did not find application config file: WebXmlConfig
+2014-01-17 17:36:40  INFO main WebxmlGrailsPlugin:invoke0:? - Loading default config file: class DefaultWebXmlConfig
+2014-01-17 17:36:40  WARN main WebxmlGrailsPlugin:invoke0:? - Did not find application config file: WebXmlConfig
+2014-01-17 17:36:41  INFO main Http11NioProtocol:init:396 - Initializing ProtocolHandler ["http-nio-8081"]
+2014-01-17 17:36:41  INFO main NioSelectorPool:getSharedSelector:73 - Using a shared selector for servlet write/read
+2014-01-17 17:36:41  INFO main StandardService:startInternal:437 - Starting service Tomcat
+2014-01-17 17:36:41  INFO main StandardEngine:startInternal:299 - Starting Servlet Engine: Apache Tomcat/7.0.42
+2014-01-17 17:36:41  INFO localhost-startStop-1 ContextConfig:getDefaultWebXmlFragment:1467 - No global web.xml found
+2014-01-17 17:36:41  INFO localhost-startStop-1 [/longo]:log:710 - Initializing Spring root WebApplicationContext
+2014-01-17 17:36:44  INFO localhost-startStop-1 HibernatePluginSupport:invoke0:? - Set db generation strategy to 'update' for datasource DEFAULT
+2014-01-17 17:36:44  INFO localhost-startStop-1 CacheBeanPostProcessor:postProcessBeanDefinitionRegistry:38 - postProcessBeanDefinitionRegistry start
+2014-01-17 17:36:44  INFO localhost-startStop-1 CacheBeanPostProcessor:postProcessBeanFactory:92 - postProcessBeanFactory
+2014-01-17 17:36:47  WARN localhost-startStop-1 ConfigurationFactory:parseConfiguration:134 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/belyaev-ay/.m2/repository/net/sf/ehcache/ehcache-core/2.4.6/ehcache-core-2.4.6.jar!/ehcache-failsafe.xml
+2014-01-17 17:36:49  INFO localhost-startStop-1 AbstractGrailsTemplateGenerator:info:152 - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@13c3e9: startup date [Fri Jan 17 17:36:44 NOVT 2014]; parent: Root WebApplicationContext]
+2014-01-17 17:36:51  INFO localhost-startStop-1 ResourceProcessor:info:152 - Performing a full reload
+2014-01-17 17:36:51  INFO localhost-startStop-1 ResourceProcessor:info:152 - Loading resource declarations...
+2014-01-17 17:36:51  INFO localhost-startStop-1 ResourceProcessor:info:152 - Forgetting all known modules...
+2014-01-17 17:36:51  INFO localhost-startStop-1 ResourceProcessor:info:152 - Forgetting all known resources...
+2014-01-17 17:36:51  WARN localhost-startStop-1 ModuleDeclarationsFactory:call:? - 'grails.resources.modules' in config does not define any modules
+2014-01-17 17:36:52  INFO localhost-startStop-1 ResourceProcessor:info:152 - Finished full reload
+2014-01-17 17:36:53  WARN localhost-startStop-1 GrailsUtil:warn:176 - [DEPRECATED] Method ApplicationHolder.getApplication() is deprecated and will be removed in a future version of Grails.
+2014-01-17 17:36:53  WARN localhost-startStop-1 GrailsUtil:warn:176 - [DEPRECATED] Method ApplicationHolder.getApplication() is deprecated and will be removed in a future version of Grails.
+2014-01-17 17:36:53  INFO localhost-startStop-1 MigrationRunner:invoke0:? - updateOnStart disabled for dataSource; not running migrations
+2014-01-17 17:36:53  INFO localhost-startStop-1 ScaffoldingGrailsPlugin:call:? - configuring scaffolding...
+2014-01-17 17:36:53  INFO localhost-startStop-1 ScaffoldingGrailsPlugin:call:? - done configuring scaffolding.
+2014-01-17 17:36:54  INFO localhost-startStop-1 GrailsConfigUtils:info:152 - [GrailsContextLoader] Grails application loaded.
+2014-01-17 17:36:54  INFO localhost-startStop-1 [/longo]:log:710 - Initializing Spring FrameworkServlet 'grails'
+2014-01-17 17:36:54  INFO localhost-startStop-1 AtmosphereFramework:initWebSocket:1244 - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2014-01-17 17:36:54  INFO localhost-startStop-1 AtmosphereFramework:autoConfigureService:2154 - Atmosphere is using org.atmosphere.cpr.DefaultAnnotationProcessor for processing annotation
+2014-01-17 17:36:54  INFO localhost-startStop-1 DefaultAnnotationProcessor:configure:131 - AnnotationProcessor class org.atmosphere.cpr.DefaultAnnotationProcessor$BytecodeBasedAnnotationProcessor being used
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:interceptor:1993 - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority AFTER_DEFAULT 
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:interceptor:1993 - Installed AtmosphereInterceptor Atmosphere LifeCycle with priority AFTER_DEFAULT 
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:interceptor:1993 - Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:configureAtmosphereInterceptor:811 - Installing Default AtmosphereInterceptor
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:newAInterceptor:826 - 	org.atmosphere.interceptor.DefaultHeadersInterceptor : Default Response's Headers Interceptor
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:newAInterceptor:826 - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:newAInterceptor:826 - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:newAInterceptor:826 - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:newAInterceptor:826 - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:newAInterceptor:826 - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:newAInterceptor:826 - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:configureAtmosphereInterceptor:817 - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:info:699 - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:info:704 - Broadcaster Polling Wait Time 100
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:info:705 - Shared ExecutorService supported: true
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:info:706 - HttpSession supported: false
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:info:707 - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:info:708 - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:info:709 - Using Broadcaster: org.atmosphere.cpr.DefaultBroadcaster
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:info:710 - Atmosphere is using async support: org.atmosphere.container.Tomcat7AsyncSupportWithWebSocket running under container: Apache Tomcat/7.0.42
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:info:712 - Atmosphere Framework 2.0.3 started.
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereFramework:info:714 - 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+2014-01-17 17:36:55  INFO localhost-startStop-1 AtmosphereServlet:init:85 - AtmosphereServlet with native support for Tomcat 6/7 and JBossWeb Installed.
+2014-01-17 17:36:55  INFO localhost-startStop-1 ReflectorServletProcessor:loadServlet:140 - Installing Servlet com.avvero.longo.LogItemHandler
+2014-01-17 17:36:55  INFO localhost-startStop-1 MeteorServlet:invoke0:? - Added AtmosphereHandler: com.avvero.longo.LogItemHandler mapped to /flow/log/*
+2014-01-17 17:36:55  INFO main Http11NioProtocol:start:441 - Starting ProtocolHandler ["http-nio-8081"]
+2014-01-17 17:36:56  INFO Thread-12 AtmosphereFramework:run:764 - Latest version of Atmosphere's JavaScript Client 2.0.9
+2014-01-17 17:36:56  INFO Thread-12 AtmosphereFramework:run:766 - 
+
+	Current version of Atmosphere 2.0.3 
+	Newest version of Atmosphere available 2.0.6
+
+
+2014-01-17 17:37:33  INFO http-nio-8081-exec-3 MongoCollector:info:152 - Start MongoCollector...
+2014-01-17 17:37:34  INFO http-nio-8081-exec-10 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 17:39:38  INFO http-nio-8081-exec-6 [/longo]:log:710 - Initializing Spring FrameworkServlet 'gsp'
+2014-01-17 17:39:38  INFO http-nio-8081-exec-6 [/longo]:log:710 - GSP servlet initialized
+2014-01-17 17:39:44  INFO http-nio-8081-exec-6 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 17:41:53  INFO Thread-13 GrailsProjectWatcher:info:152 - File [C:\dev\github\longo\web-app\js\flow.js] changed. Applying changes to application.
+2014-01-17 17:41:53  INFO Thread-13 ResourcesGrailsPlugin:info:152 - Scheduling reload of resource files due to change of file C:\dev\github\longo\web-app\js\flow.js
+2014-01-17 17:41:53  INFO pool-3-thread-1 ResourceProcessor:info:152 - Performing a changed file reload
+2014-01-17 17:41:53  INFO pool-3-thread-1 ResourceProcessor:info:152 - Loading declared resources...
+2014-01-17 17:41:53  INFO pool-3-thread-1 ResourceProcessor:info:152 - Finished changed file reload
+2014-01-17 17:42:45  INFO Thread-13 GrailsProjectWatcher:info:152 - File [C:\dev\github\longo\web-app\js\flow.js] changed. Applying changes to application.
+2014-01-17 17:42:45  INFO Thread-13 ResourcesGrailsPlugin:info:152 - Scheduling reload of resource files due to change of file C:\dev\github\longo\web-app\js\flow.js
+2014-01-17 17:42:46  INFO pool-3-thread-1 ResourceProcessor:info:152 - Performing a changed file reload
+2014-01-17 17:42:46  INFO pool-3-thread-1 ResourceProcessor:info:152 - Loading declared resources...
+2014-01-17 17:42:46  INFO pool-3-thread-1 ResourceProcessor:info:152 - Finished changed file reload
+2014-01-17 17:45:34  INFO http-nio-8081-exec-8 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 17:48:54  INFO Thread-13 GrailsProjectWatcher:info:152 - File [C:\dev\github\longo\web-app\js\flow.js] changed. Applying changes to application.
+2014-01-17 17:48:54  INFO Thread-13 ResourcesGrailsPlugin:info:152 - Scheduling reload of resource files due to change of file C:\dev\github\longo\web-app\js\flow.js
+2014-01-17 17:48:55  INFO pool-3-thread-1 ResourceProcessor:info:152 - Performing a changed file reload
+2014-01-17 17:48:55  INFO pool-3-thread-1 ResourceProcessor:info:152 - Loading declared resources...
+2014-01-17 17:48:55  INFO pool-3-thread-1 ResourceProcessor:info:152 - Finished changed file reload
+2014-01-17 17:48:56  INFO http-nio-8081-exec-2 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 17:52:43 ERROR http-nio-8081-exec-7 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 17:52:43  WARN http-nio-8081-exec-7 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 17:53:51 ERROR http-nio-8081-exec-7 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 17:53:51  WARN http-nio-8081-exec-7 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 17:53:54 ERROR http-nio-8081-exec-5 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 17:53:54  WARN http-nio-8081-exec-5 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 17:53:54  INFO http-nio-8081-exec-4 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 17:54:08 ERROR http-nio-8081-exec-5 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 17:54:08  WARN http-nio-8081-exec-5 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 17:54:10 ERROR http-nio-8081-exec-1 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 17:54:10  WARN http-nio-8081-exec-1 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 17:54:11  INFO http-nio-8081-exec-9 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
+2014-01-17 17:59:19 ERROR http-nio-8081-exec-1 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 17:59:19  WARN http-nio-8081-exec-1 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 17:59:22 ERROR http-nio-8081-exec-7 ResourceMeta:invoke0:? - Resource not found: /plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map
+2014-01-17 17:59:22  WARN http-nio-8081-exec-7 ResourceMetaStore:warn:176 - Cannot locate resource [/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.map]
+2014-01-17 17:59:22  INFO http-nio-8081-exec-6 Collector:info:152 - Add new listener to Collector mongo:127.0.0.1:27017:longo:test
