@@ -24,7 +24,7 @@
         <div class="container">
             <div class="fill">
                 <div>
-                    <div ng-repeat="log in items | reverse | filter:search"
+                    <div ng-repeat="log in items | reverse | filter:search | filter: byLevel"
                         class="
                         {{log.level == 'ERROR' ? 'alert-danger' : ''}}
                         {{log.level == 'WARN' ? 'alert-warning' : ''}}

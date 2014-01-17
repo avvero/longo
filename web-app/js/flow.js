@@ -33,6 +33,13 @@ $( document ).ready(function() {
             $scope.changeShowDanger = function () {
                 $scope.showError = !$scope.showError;
             }
+            $scope.byLevel = function(log){
+                if ($scope.showDebug && (log.level == 'DEBUG' || log.level == 'TRACE')) return true
+                if ($scope.showInfo && log.level == 'INFO') return true
+                if ($scope.showWarn && log.level == 'WARN') return true
+                if ($scope.showError && log.level == 'ERROR') return true
+                return false;
+            };
             // События
             $scope.items = [];
             $scope.remove = function(index) {

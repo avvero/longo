@@ -4,7 +4,6 @@
     <list default="true" id="0e1341da-7dcb-4d83-85dd-5b467a4b759c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/flow.js" afterPath="$PROJECT_DIR$/web-app/js/flow.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/flow/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/flow/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/stub.log" afterPath="$PROJECT_DIR$/logs/stub.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -356,7 +355,7 @@
       <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/flow/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="83" selection-start="411" selection-end="411" vertical-scroll-proportion="0.086021505" vertical-offset="159" max-vertical-offset="1666">
+            <state line="26" column="92" selection-start="823" selection-end="823" vertical-scroll-proportion="0.25358424" vertical-offset="159" max-vertical-offset="1666">
               <folding />
             </state>
           </provider>
@@ -365,7 +364,7 @@
       <file leaf-file-name="flow.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/js/flow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="71" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="2550">
+            <state line="17" column="60" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2669">
               <folding />
             </state>
           </provider>
@@ -1017,7 +1016,7 @@
       <workItem from="1389686014527" duration="11234000" />
       <workItem from="1389751993416" duration="1174000" />
       <workItem from="1389851152136" duration="13840000" />
-      <workItem from="1389943396702" duration="12838000" />
+      <workItem from="1389943396702" duration="13424000" />
     </task>
     <task id="LOCAL-00001" summary="Убрал блок для html логов">
       <created>1389686215388</created>
@@ -1043,11 +1042,15 @@
       <created>1389954577942</created>
       <updated>1389954577942</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Подсветка событий">
+      <created>1389956436278</created>
+      <updated>1389956436278</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65910000" />
+    <option name="totallyTimeSpent" value="66496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1216" height="1854" extended-state="6" />
@@ -1108,7 +1111,8 @@
     <MESSAGE value="Перевел Mongo слушателей на сервис&#10;Добавил Socket appender" />
     <MESSAGE value="Перевел на ручное подключение" />
     <MESSAGE value="Полностью функционируют сокеты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Полностью функционируют сокеты" />
+    <MESSAGE value="Подсветка событий" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подсветка событий" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1504,14 +1508,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/flow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="71" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="2550">
+        <state line="17" column="60" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2669">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/flow/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="83" selection-start="411" selection-end="411" vertical-scroll-proportion="0.086021505" vertical-offset="159" max-vertical-offset="1666">
+        <state line="26" column="92" selection-start="823" selection-end="823" vertical-scroll-proportion="0.25358424" vertical-offset="159" max-vertical-offset="1666">
           <folding />
         </state>
       </provider>
