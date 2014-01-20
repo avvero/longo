@@ -25,7 +25,6 @@ class CollectorFactory {
         if (collector == null) {
             collector = new MongoCollector(config)
             collectors.put(collector.getName(), collector)
-            collector.start()
         }
         return collector;
     }
@@ -35,7 +34,6 @@ class CollectorFactory {
         if (collector == null) {
             collector = new SocketCollector(socket)
             collectors.put(collector.getName(), collector)
-            collector.start()
         }
         return collector;
     }

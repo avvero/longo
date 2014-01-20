@@ -40,6 +40,11 @@
                             {{log.message}}&nbsp;
                         </span>
                         <div ng-bind-html-unsafe="log.messageLong"></div>
+                        <div ng-if="log.throwable_rps">
+                            <div ng-repeat="rp in log.throwable_rps track by $index">
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{rp}}</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

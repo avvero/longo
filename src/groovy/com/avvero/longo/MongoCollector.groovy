@@ -60,7 +60,7 @@ class MongoCollector extends Collector {
     }
 
     @Override
-    protected Listener getNewListener(Broadcaster broadcaster) {
+    protected Listener getNewListener(Broadcaster broadcaste, String mapping) {
         return new Listener() {
             void handle(Object o) {
                 BasicDBObject dbObject = (BasicDBObject) o;

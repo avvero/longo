@@ -49,16 +49,27 @@ class FlowController {
      * @return
      */
 
-    def connectToMongoCollector() {
+    def startMongoCollector() {
         def connection = MongoConnectionConfig.findById(params.id)
         Collector collector = CollectorFactory.getCollector(connection)
+        collector.start()
         redirect(controller: "flow", action: "index", params: [collector: collector.getName()])
     }
 
-     def connectToSocketCollector() {
+     def startSocketCollector() {
         def socket = Socket.findById(params.id)
         Collector collector = CollectorFactory.getCollector(socket)
+        if (!collector.isRun()) {
+            collector.start()
+        }
         redirect(controller: "flow", action: "index", params: [collector: collector.getName()])
+    }
+
+     def stopSocketCollector() {
+        def socket = Socket.findById(params.id)
+        Collector collector = CollectorFactory.getCollector(socket)
+        collector.stop()
+        forward action: "sources"
     }
 
 

@@ -27,7 +27,7 @@
                         <g:form>
                             <input type="hidden" name="id" value="${item.id}"/>
                             <g:actionSubmit action="delMongoConnectionConfig" value="Удалить" class="btn btn-default">Удалить</g:actionSubmit>
-                            <g:actionSubmit action="connectToMongoCollector" value="Подключиться" class="btn btn-default"/>
+                            <g:actionSubmit action="startMongoCollector" value="Подключиться" class="btn btn-default"/>
                         </g:form>
                     </td>
                 </tr>
@@ -74,7 +74,8 @@
                         <g:form>
                             <input type="hidden" name="id" value="${item.id}"/>
                             <g:actionSubmit action="delSocket" value="Удалить" class="btn btn-default">Удалить</g:actionSubmit>
-                            <g:actionSubmit action="connectToSocketCollector" value="Подключиться" class="btn btn-default"/>
+                            <g:actionSubmit action="startSocketCollector" value="Подключиться" class="btn btn-default"/>
+                            <g:actionSubmit action="stopSocketCollector" value="Отключить" class="btn btn-default"/>
                         </g:form>
                     </td>
 

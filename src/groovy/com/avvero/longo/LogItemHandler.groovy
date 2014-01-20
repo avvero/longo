@@ -24,7 +24,7 @@ class LogItemHandler extends HttpServlet {
         //XXX подумать лучше
         String[] pars = request.getPathInfo().split("/")
         Collector collector = CollectorFactory.getCollector(pars[1])
-        collector.addListener(broadcaster)
+        collector.addListener(broadcaster, mapping)
         m.setBroadcaster(broadcaster)
     }
 

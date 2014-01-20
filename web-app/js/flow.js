@@ -121,6 +121,9 @@ $( document ).ready(function() {
 
                 onMessage: function (response) {
                     var data = $.parseJSON(response.responseBody);
+                    if (data.level == "ERROR") {
+                        data.level
+                    }
                     var date = moment(new Date(data.timestamp['$date'])).format("YYYY-MM-DD HH:mm:ss")
                     data.date = date
                     var user = data.properties ? '('+data.properties.userLogin+','+data.properties.sessionId+')' : ""
@@ -147,6 +150,9 @@ $( document ).ready(function() {
                 url: 'log/' + collector + "/" + id
             };
             $scope.LogFlow.subscribe(logFlowRequest);
+            $(window).unload(function () {
+                $scope.LogFlow.unsubscribe();
+            });
         }
     );
 });
