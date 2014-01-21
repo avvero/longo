@@ -39,8 +39,13 @@
                             {{log.class.className}}:{{log.method}}:{{log.lineNumber}}&nbsp;
                             {{log.message}}&nbsp;
                         </span>
-                        <div ng-bind-html-unsafe="log.messageLong"></div>
+                        <div>
+                            <div ng-repeat="part in log.msgParts track by $index">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{part}}
+                            </div>
+                        </div>
                         <div ng-if="log.throwable_rps">
+                            Throwable:
                             <div ng-repeat="rp in log.throwable_rps track by $index">
                                 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{rp}}</span>
                             </div>

@@ -40,7 +40,9 @@ class FlowController {
     }
 
     def delSocket() {
-        Socket.findById(params.id).delete(flush: true)
+        def socket = Socket.findById(params.id)
+        CollectorFactory.deleteCollector(socket);
+        socket.delete(flush: true)
         forward action: "sources"
     }
 

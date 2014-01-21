@@ -129,12 +129,12 @@ $( document ).ready(function() {
                     var user = data.properties ? '('+data.properties.userLogin+','+data.properties.sessionId+')' : ""
                     data.user = user
                     var message = data.message
-                    // XXX Нормально парсим в строку нужно нам
+                    // XXX Нормально парсить в строку нужно нам
                     if ((message + " ").indexOf('\r\n')!= -1) {
                         message = safeTags(message)
-                        message = message.replaceAll('\r\n', '<br/>')
+                        var msgParts = message.split('\r\n')
                         data.message = ""
-                        data.messageLong = message
+                        data.msgParts = msgParts
                     }
                     $scope.addLimitLogEntry(data)
                 }

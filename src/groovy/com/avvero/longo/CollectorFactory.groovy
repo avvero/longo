@@ -38,4 +38,20 @@ class CollectorFactory {
         return collector;
     }
 
+    public static synchronized Collector getExistCollector(Socket socket) {
+        Collector collector = collectors.get(socket.getKey())
+        return collector;
+    }
+
+    public static synchronized Collector deleteCollector(Socket socket) {
+        Collector collector = getExistCollector(socket.getKey())
+        if (collector != null) {
+            if (collector.isRun()) {
+                collector.stop()
+            }
+            collectors.remove(collector.getName())
+        }
+        return collector;
+    }
+
 }

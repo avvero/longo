@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e1341da-7dcb-4d83-85dd-5b467a4b759c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/avvero/bson/LoggingEventBsonifierImplExt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovy/com/avvero/longo/Collector.groovy" afterPath="$PROJECT_DIR$/src/groovy/com/avvero/longo/Collector.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/longo-0.1.war" afterPath="$PROJECT_DIR$/target/longo-0.1.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovy/com/avvero/longo/CollectorFactory.groovy" afterPath="$PROJECT_DIR$/src/groovy/com/avvero/longo/CollectorFactory.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovy/com/avvero/longo/LogItemHandler.groovy" afterPath="$PROJECT_DIR$/src/groovy/com/avvero/longo/LogItemHandler.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovy/com/avvero/longo/MongoCollector.groovy" afterPath="$PROJECT_DIR$/src/groovy/com/avvero/longo/MongoCollector.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovy/com/avvero/longo/SocketCollector.groovy" afterPath="$PROJECT_DIR$/src/groovy/com/avvero/longo/SocketCollector.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/bootstrap/docs.css" afterPath="$PROJECT_DIR$/web-app/css/bootstrap/docs.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/flow.js" afterPath="$PROJECT_DIR$/web-app/js/flow.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/flow/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/flow/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/flow/sources.gsp" afterPath="$PROJECT_DIR$/grails-app/views/flow/sources.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/stub.log" afterPath="$PROJECT_DIR$/logs/stub.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -101,7 +95,7 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="66" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="663">
+            <state line="30" column="9" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -125,31 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcurrentHashMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_40/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1012" column="19" selection-start="38915" selection-end="38915" vertical-scroll-proportion="0.0" vertical-offset="17204" max-vertical-offset="27625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationResources.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="10" selection-start="408" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Collector.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/Collector.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="19" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-              <folding>
-                <element signature="e#26#70#0" expanded="true" />
-              </folding>
+            <state line="16" column="19" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1054">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,66 +131,7 @@
       <file leaf-file-name="BootStrap.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollectorFactory.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/CollectorFactory.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="35" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocketCollector.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/SocketCollector.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="61" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1751">
-              <folding>
-                <element signature="e#26#77#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoggingEventBsonifierImplExt.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/bson/LoggingEventBsonifierImplExt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="35" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1105">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#851#889#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BSONObject.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/org/bson/BSONObject.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="21" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicDBObject.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/com/mongodb/BasicDBObject.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="544">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicDBList.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/com/mongodb/BasicDBList.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="61" selection-start="396" selection-end="396" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="408">
+            <state line="9" column="38" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -225,7 +140,7 @@
       <file leaf-file-name="BasicBSONList.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/org/bson/types/BasicBSONList.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="422" selection-end="422" vertical-scroll-proportion="-6.8" vertical-offset="0" max-vertical-offset="731">
+            <state line="11" column="47" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -234,8 +149,28 @@
       <file leaf-file-name="LoggingEventBsonifierImpl.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/log4mongo-java-0.7.4.jar!/org/log4mongo/LoggingEventBsonifierImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="35" selection-start="2463" selection-end="2463" vertical-scroll-proportion="-28.56" vertical-offset="0" max-vertical-offset="969">
+            <state line="43" column="35" selection-start="2463" selection-end="2463" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="986">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectorFactory.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/CollectorFactory.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="56" selection-start="1406" selection-end="1421" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1071">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketCollector.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/SocketCollector.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="105" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1751">
+              <folding>
+                <element signature="e#26#77#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -243,7 +178,7 @@
       <file leaf-file-name="LoggingEventBsonifier.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/log4mongo-java-0.7.4.jar!/org/log4mongo/LoggingEventBsonifier.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="209" selection-end="209" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="221">
+            <state line="7" column="25" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -252,7 +187,7 @@
       <file leaf-file-name="DBObject.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/com/mongodb/DBObject.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="255">
+            <state line="6" column="17" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -261,7 +196,7 @@
       <file leaf-file-name="Broadcaster.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/atmosphere/atmosphere-runtime-native/2.0.3/atmosphere-runtime-native-2.0.3.jar!/org/atmosphere/cpr/Broadcaster.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="89" selection-start="3030" selection-end="3034" vertical-scroll-proportion="-13.274509" vertical-offset="462" max-vertical-offset="1479">
+            <state line="68" column="89" selection-start="3030" selection-end="3034" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
@@ -288,23 +223,8 @@
       <file leaf-file-name="LoggingEvent.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../kits/grails/grails-2.3.2/lib/log4j/log4j/jars/log4j-1.2.17-sources.jar!/org/apache/log4j/spi/LoggingEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="99" selection-start="5574" selection-end="5574" vertical-scroll-proportion="-24.846153" vertical-offset="1479" max-vertical-offset="10200">
-              <folding>
-                <element signature="e#0#19860#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#9232#9233#0" expanded="false" />
-                <element signature="e#9261#9262#0" expanded="false" />
-                <element signature="e#9421#9422#0" expanded="false" />
-                <element signature="e#9448#9449#0" expanded="false" />
-                <element signature="e#12228#12229#0" expanded="false" />
-                <element signature="e#12254#12255#0" expanded="false" />
-                <element signature="e#12751#12752#0" expanded="false" />
-                <element signature="e#12781#12782#0" expanded="false" />
-                <element signature="e#18045#18046#0" expanded="false" />
-                <element signature="e#18075#18076#0" expanded="false" />
-                <element signature="e#19259#19260#0" expanded="false" />
-                <element signature="e#19298#19299#0" expanded="false" />
-              </folding>
+            <state line="157" column="99" selection-start="5574" selection-end="5574" vertical-scroll-proportion="0.0" vertical-offset="2669" max-vertical-offset="10948">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -312,11 +232,8 @@
       <file leaf-file-name="ThrowableInformation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../kits/grails/grails-2.3.2/lib/log4j/log4j/jars/log4j-1.2.17-sources.jar!/org/apache/log4j/spi/ThrowableInformation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="22" selection-start="2980" selection-end="2980" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-              <folding>
-                <element signature="e#2390#2391#0" expanded="true" />
-                <element signature="e#2416#2417#0" expanded="true" />
-              </folding>
+            <state line="91" column="22" selection-start="2980" selection-end="2980" vertical-scroll-proportion="0.0" vertical-offset="1547" max-vertical-offset="1734">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -333,7 +250,7 @@
       <file leaf-file-name="MongoCollector.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/MongoCollector.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="34" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="1258">
+            <state line="58" column="34" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -342,7 +259,7 @@
       <file leaf-file-name="sources.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/flow/sources.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="71" selection-start="3534" selection-end="3534" vertical-scroll-proportion="-18.734694" vertical-offset="391" max-vertical-offset="1887">
+            <state line="75" column="61" selection-start="3266" selection-end="3275" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1887">
               <folding />
             </state>
           </provider>
@@ -350,25 +267,25 @@
       </file>
       <file leaf-file-name="Socket.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/avvero/longo/Socket.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="6" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="MongoConnectionConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/avvero/longo/MongoConnectionConfig.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="0" selection-start="171" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="391">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -402,7 +319,16 @@
       <file leaf-file-name="FlowController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="62" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-30.347826" vertical-offset="152" max-vertical-offset="1394">
+            <state line="36" column="48" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1428">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="38" selection-start="734" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -411,7 +337,7 @@
       <file leaf-file-name="LogItemHandler.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/LogItemHandler.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="26" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+            <state line="36" column="26" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -420,7 +346,7 @@
       <file leaf-file-name="DefaultMeteorServlet.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/DefaultMeteorServlet.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="48" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="29" column="48" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -429,7 +355,7 @@
       <file leaf-file-name="MeteorServlet.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/atmosphere/atmosphere-runtime-native/2.0.3/atmosphere-runtime-native-2.0.3.jar!/org/atmosphere/cpr/MeteorServlet.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="544">
+            <state line="6" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -465,7 +391,7 @@
       <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/flow/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="72" selection-start="142" selection-end="142" vertical-scroll-proportion="0.08844953" vertical-offset="0" max-vertical-offset="1768">
+            <state line="41" column="29" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.41850594" vertical-offset="204" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -474,7 +400,7 @@
       <file leaf-file-name="docs.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/css/bootstrap/docs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="594" column="80" selection-start="61126" selection-end="61126" vertical-scroll-proportion="0.0" vertical-offset="9476" max-vertical-offset="20434">
+            <state line="594" column="80" selection-start="61126" selection-end="61126" vertical-scroll-proportion="0.0" vertical-offset="10098" max-vertical-offset="20434">
               <folding />
             </state>
           </provider>
@@ -483,10 +409,8 @@
       <file leaf-file-name="flow.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/js/flow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="36" selection-start="5226" selection-end="5226" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="2771">
-              <folding>
-                <marker date="1390208217502" expanded="true" signature="5237:5295" placeholder="{...}" />
-              </folding>
+            <state line="136" column="48" selection-start="5969" selection-end="5969" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="2771">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -494,7 +418,7 @@
       <file leaf-file-name="atmosphere.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/work/plugins/atmosphere-meteor-0.7.0/web-app/js/atmosphere.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2581" column="1" selection-start="105582" selection-end="105623" vertical-scroll-proportion="0.0" vertical-offset="43283" max-vertical-offset="50949">
+            <state line="2581" column="1" selection-start="105582" selection-end="105623" vertical-scroll-proportion="0.0" vertical-offset="43877" max-vertical-offset="51187">
               <folding />
             </state>
           </provider>
@@ -503,7 +427,7 @@
       <file leaf-file-name="AtmosphereMeteorConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/AtmosphereMeteorConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="34" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+            <state line="36" column="34" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -512,7 +436,7 @@
       <file leaf-file-name="AtmosphereMeteorResources.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/AtmosphereMeteorResources.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="33" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="12" column="33" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -521,7 +445,7 @@
       <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="111" selection-start="1298" selection-end="1401" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1003">
+            <state line="44" column="105" selection-start="2411" selection-end="2411" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
@@ -530,7 +454,7 @@
       <file leaf-file-name="Listener.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/services/com/avvero/longo/Listener.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="8" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -601,17 +525,17 @@
         <option value="$PROJECT_DIR$/grails-app/domain/com/avvero/longo/Socket.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/src/groovy/com/avvero/longo/LogItemHandler.groovy" />
         <option value="$PROJECT_DIR$/src/groovy/com/avvero/longo/MongoCollector.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/flow/sources.gsp" />
-        <option value="$PROJECT_DIR$/src/groovy/com/avvero/longo/CollectorFactory.groovy" />
         <option value="$PROJECT_DIR$/src/groovy/com/avvero/longo/Collector.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy" />
         <option value="$PROJECT_DIR$/src/groovy/com/avvero/longo/SocketCollector.groovy" />
         <option value="$PROJECT_DIR$/src/groovy/com/avvero/bson/LoggingEventBsonifierImplExt.java" />
-        <option value="$PROJECT_DIR$/web-app/js/flow.js" />
         <option value="$PROJECT_DIR$/web-app/css/bootstrap/docs.css" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/src/groovy/com/avvero/longo/CollectorFactory.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy" />
+        <option value="$PROJECT_DIR$/web-app/js/flow.js" />
         <option value="$PROJECT_DIR$/grails-app/views/flow/index.gsp" />
       </list>
     </option>
@@ -857,8 +781,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -898,6 +822,7 @@
     <property name="database.results.filters.show" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1185,7 +1110,9 @@
       <workItem from="1389851152136" duration="13840000" />
       <workItem from="1389943396702" duration="14526000" />
       <workItem from="1390184540413" duration="1853000" />
-      <workItem from="1390192985885" duration="12747000" />
+      <workItem from="1390192985885" duration="17290000" />
+      <workItem from="1390270914463" duration="189000" />
+      <workItem from="1390299426087" duration="3184000" />
     </task>
     <task id="LOCAL-00001" summary="Убрал блок для html логов">
       <created>1389686215388</created>
@@ -1223,11 +1150,15 @@
       <created>1389958050245</created>
       <updated>1389958050245</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Добавил вывод стека ошибок">
+      <created>1390208742601</created>
+      <updated>1390208742601</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82198000" />
+    <option name="totallyTimeSpent" value="90114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1216" height="1854" extended-state="6" />
@@ -1235,40 +1166,77 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901707" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24956822" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30570254" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25279248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30570254" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25279248" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.19689119" sideWeight="0.6216968" order="0" side_tool="false" content_ui="combo" x="-326" y="4" width="320" height="857" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21365508" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901707" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39729252" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.22625215" sideWeight="0.6216968" order="2" side_tool="false" content_ui="tabs" x="-324" y="3" width="321" height="1057" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26957032" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.22625215" sideWeight="0.6216968" order="4" side_tool="false" content_ui="tabs" x="-324" y="3" width="321" height="1057" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24956822" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298791" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20835786" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20835786" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901707" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901707" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30570254" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20835786" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25279248" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.19689119" sideWeight="0.6216968" order="0" side_tool="false" content_ui="combo" x="-326" y="4" width="320" height="857" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21365508" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901707" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39729252" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.22625215" sideWeight="0.6216968" order="4" side_tool="false" content_ui="tabs" x="-324" y="3" width="321" height="1057" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298791" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USERS">
@@ -1291,7 +1259,8 @@
     <MESSAGE value="Подсветка событий" />
     <MESSAGE value="Фильтрация по уровню сервиса" />
     <MESSAGE value="Подкраска логов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подкраска логов" />
+    <MESSAGE value="Добавил вывод стека ошибок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил вывод стека ошибок" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1308,16 +1277,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_40/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1012" column="19" selection-start="38915" selection-end="38915" vertical-scroll-proportion="0.0" vertical-offset="15975" max-vertical-offset="26962">
-          <folding />
-        </state>
+        <state line="1012" column="19" selection-start="38915" selection-end="38915" vertical-scroll-proportion="0.0" vertical-offset="15975" max-vertical-offset="26962" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../kits/grails/grails-2.3.2/lib/commons-lang/commons-lang/jars/commons-lang-2.6-sources.jar!/org/apache/commons/lang/ArrayUtils.java">
@@ -1363,23 +1325,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/avvero/longo/MongoConnectionConfig.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="171" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/avvero/longo/Socket.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/avvero/longo/Socket.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="6" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="357">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_40/src.zip!/java/net/Socket.java">
@@ -1445,27 +1407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="66" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="111" selection-start="1298" selection-end="1401" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/work/plugins/atmosphere-meteor-0.7.0/web-app/js/atmosphere.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2581" column="1" selection-start="105582" selection-end="105623" vertical-scroll-proportion="0.0" vertical-offset="43283" max-vertical-offset="50949">
@@ -1475,7 +1416,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/atmosphere/atmosphere-runtime-native/2.0.3/atmosphere-runtime-native-2.0.3.jar!/org/atmosphere/cpr/Broadcaster.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="89" selection-start="3030" selection-end="3034" vertical-scroll-proportion="-13.274509" vertical-offset="462" max-vertical-offset="1479">
+        <state line="68" column="89" selection-start="3030" selection-end="3034" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>
@@ -1496,9 +1437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="408" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="19" column="10" selection-start="408" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/AtmosphereMeteorConfig.groovy">
@@ -1517,7 +1456,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/atmosphere/atmosphere-runtime-native/2.0.3/atmosphere-runtime-native-2.0.3.jar!/org/atmosphere/cpr/MeteorServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="544">
+        <state line="6" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
@@ -1531,21 +1470,14 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/com/mongodb/DBObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/CollectorFactory.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+        <state line="6" column="17" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/log4mongo-java-0.7.4.jar!/org/log4mongo/LoggingEventBsonifierImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="35" selection-start="2463" selection-end="2463" vertical-scroll-proportion="-28.56" vertical-offset="0" max-vertical-offset="969">
+        <state line="43" column="35" selection-start="2463" selection-end="2463" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
@@ -1553,83 +1485,50 @@
     <entry file="jar://$PROJECT_DIR$/../../kits/grails/grails-2.3.2/lib/log4j/log4j/jars/log4j-1.2.17-sources.jar!/org/apache/log4j/spi/ThrowableInformation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="22" selection-start="2980" selection-end="2980" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-          <folding>
-            <element signature="e#2390#2391#0" expanded="true" />
-            <element signature="e#2416#2417#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../kits/grails/grails-2.3.2/lib/log4j/log4j/jars/log4j-1.2.17-sources.jar!/org/apache/log4j/spi/LoggingEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="99" selection-start="5574" selection-end="5574" vertical-scroll-proportion="-24.846153" vertical-offset="1479" max-vertical-offset="10200">
-          <folding>
-            <element signature="e#0#19860#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#9232#9233#0" expanded="false" />
-            <element signature="e#9261#9262#0" expanded="false" />
-            <element signature="e#9421#9422#0" expanded="false" />
-            <element signature="e#9448#9449#0" expanded="false" />
-            <element signature="e#12228#12229#0" expanded="false" />
-            <element signature="e#12254#12255#0" expanded="false" />
-            <element signature="e#12751#12752#0" expanded="false" />
-            <element signature="e#12781#12782#0" expanded="false" />
-            <element signature="e#18045#18046#0" expanded="false" />
-            <element signature="e#18075#18076#0" expanded="false" />
-            <element signature="e#19259#19260#0" expanded="false" />
-            <element signature="e#19298#19299#0" expanded="false" />
-          </folding>
+        <state line="157" column="99" selection-start="5574" selection-end="5574" vertical-scroll-proportion="0.0" vertical-offset="2669" max-vertical-offset="10948">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/org/bson/types/BasicBSONList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="422" selection-end="422" vertical-scroll-proportion="-6.8" vertical-offset="0" max-vertical-offset="731">
+        <state line="11" column="47" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/log4mongo-java-0.7.4.jar!/org/log4mongo/LoggingEventBsonifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="209" selection-end="209" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="221">
+        <state line="7" column="25" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/com/mongodb/BasicDBList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="61" selection-start="396" selection-end="396" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
+        <state line="10" column="61" selection-start="396" selection-end="396" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/org/bson/BSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="7" column="21" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/mongo-java-driver-2.11.3.jar!/com/mongodb/BasicDBObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="62" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-30.347826" vertical-offset="152" max-vertical-offset="1394">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/Collector.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="19" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <folding>
-            <element signature="e#26#70#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1642,30 +1541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/bson/LoggingEventBsonifierImplExt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="35" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1105">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#851#889#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/flow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="36" selection-start="5226" selection-end="5226" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="2771">
-          <folding>
-            <marker date="1390208217502" expanded="true" signature="5237:5295" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/SocketCollector.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="61" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1751">
-          <folding>
-            <element signature="e#26#77#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="51" column="35" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1105" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/css/bootstrap/docs.css">
@@ -1675,16 +1551,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="105" selection-start="2411" selection-end="2411" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/flow/sources.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="71" selection-start="3534" selection-end="3534" vertical-scroll-proportion="-18.734694" vertical-offset="391" max-vertical-offset="1887">
+        <state line="75" column="61" selection-start="3266" selection-end="3275" vertical-scroll-proportion="0.0" vertical-offset="926" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/CollectorFactory.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="56" selection-start="1406" selection-end="1421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/avvero/longo/FlowController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="48" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="38" selection-start="734" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/com/avvero/longo/SocketCollector.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="105" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1751">
+          <folding>
+            <element signature="e#26#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="9" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/flow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="48" selection-start="5969" selection-end="5969" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="2771">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/flow/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="72" selection-start="142" selection-end="142" vertical-scroll-proportion="0.08844953" vertical-offset="0" max-vertical-offset="1768">
+        <state line="41" column="29" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.41850594" vertical-offset="204" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
