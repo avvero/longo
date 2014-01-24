@@ -26,7 +26,7 @@
         <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="${request.contextPath}">Longo</a>
+                    <a class="navbar-brand" href="${request.contextPath}">Longo 0.0.1.2</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">

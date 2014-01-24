@@ -130,9 +130,9 @@ $( document ).ready(function() {
                     data.user = user
                     var message = data.message
                     // XXX Нормально парсить в строку нужно нам
-                    if ((message + " ").indexOf('\r\n')!= -1) {
+                    if ((message + " ").indexOf('\n')!= -1) {
                         message = safeTags(message)
-                        var msgParts = message.split('\r\n')
+                        var msgParts = message.split('\n')
                         data.message = ""
                         data.msgParts = msgParts
                     }

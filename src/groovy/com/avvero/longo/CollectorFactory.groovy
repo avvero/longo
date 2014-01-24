@@ -54,4 +54,12 @@ class CollectorFactory {
         return collector;
     }
 
+    public static synchronized stopAll() {
+        for (Collector collector : collectors) {
+            if (collector.isRun()) {
+                collector.stop()
+            }
+        }
+    }
+
 }
